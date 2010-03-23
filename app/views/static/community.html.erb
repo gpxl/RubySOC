@@ -10,3 +10,44 @@
     Regional Ruby Conferences are a great place to highlight Summer of Code student accomplishments; students who complete their Summer of Code projects may have the opportunity to receive free admission and a small speaking slot at RubyConf 2010. 
   </p>
 </div>
+
+<div class="section"> 
+  <h2>Community Chit Chat</h2> 
+  <br>
+  <br>
+  <center>
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'faves',
+      rpp: 8,
+      interval: 6000,
+      title: 'The best of Twitter according to',
+      subject: 'Ruby Summer of Code',
+      width: 500,
+      height: 300,
+      theme: {
+        shell: {
+          background: '#c6da83',
+          color: '#000000'
+        },
+        tweets: {
+          background: '#ffffff',
+          color: '#444444',
+          links: '#2765ab'
+        }
+      },
+      features: {
+        scrollbar: true,
+        loop: false,
+        live: true,
+        hashtags: true,
+        timestamp: true,
+        avatars: true,
+        behavior: 'all'
+      }
+    }).render().setUser('rubysoc').start();
+    </script>
+  </center>
+</div>
