@@ -47118,3 +47118,241 @@ Processing StaticController#show (for 127.0.0.1 at 2010-03-23 09:59:04) [GET]
 Rendering template within layouts/application
 Rendering static/index
 Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:37:27) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:37:29) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:37:38) [GET]
+  Parameters: {"path"=>["mentors"]}
+Rendering template within layouts/application
+Rendering static/mentors
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/mentors]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:39:17) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:40:53) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:40:54) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:50:18) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 63ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:52:48) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:52:50) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:53:06) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:53:18) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:53:37) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:53:51) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:54:24) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:54:29) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:54:41) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:54:50) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:55:03) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:55:48) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:56:06) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:56:12) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:56:21) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:56:32) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:56:51) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:57:02) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 10:57:07) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 11:24:43) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 11:26:39) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 11:27:00) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 11:27:12) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 11:27:29) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 11:27:45) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 11:27:52) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]
+
+
+Processing StaticController#show (for 127.0.0.1 at 2010-03-23 11:27:59) [GET]
+  Parameters: {"path"=>["index"]}
+Rendering template within layouts/application
+Rendering static/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/index]

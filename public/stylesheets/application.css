@@ -31,8 +31,9 @@ a:hover { text-decoration:underline; }
   position:relative;
 	margin:0 auto;                                                                       
 	text-align:left;
-	width:1024px;
-	background:#F1F7E2;
+	width:1024px;                       
+	padding:0 0 100px 0;
+	background:url('/images/header.png') 0 0 no-repeat;
 	border:#999 solid;
 	border-width:0 1px;
 }
@@ -104,16 +105,22 @@ a:hover { text-decoration:underline; }
   #social {
     position:absolute;
     top:167px;
-    right:40px;
-  }          
-  #social li {  
+    right:30px;
+  	width:172px;
+  }           
+  #social ul {   
+    display:inline;
+    padding:0;
+    margin:0;
+  }
+  #social li {     
     display:inline;
   	float:left;    
   	width:30px;
     height:30px;
     overflow:hidden;
     text-indent:-999px;
-    margin:0 6px;
+    margin:0 0 0 20px;
   }               
   #social li a {
     display:block;     
