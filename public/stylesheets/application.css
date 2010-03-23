@@ -16,12 +16,10 @@ p {
 p, address { font-style:normal; }
 
 a:link, a:visited {
-	color:#99ccff;
+  color: #005195;
 	text-decoration:none;
 }
 a:hover { text-decoration:underline; }
-
-
 
 /* = Structural Styles = */
 #wrapper {
@@ -298,13 +296,7 @@ a:hover { text-decoration:underline; }
 	  width:105px;
 	  height:105px;
   }
-	#paypal a.donate {                                     
-	  display:block;
-	  width:105px;
-	  height:26px;
-	  background:url('/images/main-sprite.gif') 0 -90px no-repeat;
-	  overflow:hidden;
-	  text-indent:-999px;
+	#paypal form {                                     
 	  margin:0 0 5px 5px;
 	}
 	/* Home Page - Next Event */
