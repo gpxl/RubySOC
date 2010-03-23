@@ -1,0 +1,16 @@
+.block.videos
+  %h3 Customer Videos
+
+  %ul
+    %li
+      %a.watch{:href=>'http://eyweb-videos.s3.amazonaws.com/customer-pivotal.mov', :rel=>'shadowbox;width=426;height=240', :title=>'Pivotal Labs', :onClick=>"javascript: pageTracker._trackPageview('/downloads/customer-pivotal.mov');"}
+        = image_tag '/images/img-customer-pivotal.jpg', :alt=>'Pivotal Labs Customer Video'
+        Pivotal Labs
+    %li
+      %a.watch{:href=>'http://eyweb-videos.s3.amazonaws.com/customer-spongecell.mov', :rel=>'shadowbox;width=426;height=240', :title=>'Spongecell', :onClick=>"javascript: pageTracker._trackPageview('/downloads/customer-spongecell.mov');"}
+        = image_tag '/images/img-customer-spongecell.jpg', :alt=>'Spongecell Customer Video'
+        Spongecell
+    %li
+      %a.watch{:href=>'http://eyweb-videos.s3.amazonaws.com/customer-bleacher.mov', :rel=>'shadowbox;width=426;height=240', :title=>'Bleacher Report', :onClick=>"javascript: pageTracker._trackPageview('/downloads/customer-bleacher.mov');"}
+        = image_tag '/images/img-customer-bleacher.jpg', :alt=>'Bleacher Report Customer Video'
+        Bleacher Report

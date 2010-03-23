@@ -1,0 +1,72 @@
+%a{:href=>'#', :class=>'skipTo', :rel=>'nofollow'} Back to the top
+
+- if @landingpage
+  .baselink
+    .center= link_to 'www.engineyard.com', 'http://www.engineyard.com'
+- else
+  .infoSection
+    %div
+      .slideshow
+        #imagesCycle
+          =image_tag "/images/slide0.jpg" if @price_estimator
+        .info
+          %p
+            This is our hometown: San Francisco, California,
+            %acronym{:title=>'United States of America'}USA. 
+          %p
+            Most of us are around San Francisco, but some of us are in places like Washington State, Missouri, Minneapolis, Israel, Australia and the
+            %acronym{:title=>'United Kingdom'}UK.
+          %p Feel free to contact us with questions or comments.
+          %p
+            (866) 518-YARD (9273)
+            %br/
+            Support: 866-518-9275
+          %address
+            %strong 
+              %acronym{:title=>'San Francisco'}SF
+              Headquarters
+            %br/
+            Engine Yard
+            %br/
+            500 Third Street, Suite 510
+            %br/
+            San Francisco, 
+            %abbr{:title=>'California'}CA
+            94107
+          %address.right
+            %strong Mailing Address
+            %br/
+            Engine Yard
+            %br/
+            %acronym{:title=>"Post Office"}PO
+            Box 77130
+            %br/
+            San Francisco,
+            %abbr{:title=>'California'}CA
+            94107-1713
+          %p
+            Or use our
+            %a{:href=>'/about/contact', :rel=>'nofollow'}contact form.
+          %p
+          
+            = "&copy;#{Time.now.year} Engine Yard, Inc."
+            
+          
+
+      .navigation
+        .infoNav
+          %h2 About Us
+          %ul
+            %li= link_to 'Community', '/blog'
+            %li= link_to 'Customers', '/customers'
+            %li= link_to 'Partner Program', '/partners'
+            %li= link_to 'Affiliate Program', '/affiliates'
+            %li= link_to 'Careers', '/about/careers'
+            %li= link_to 'Contact Us', '/about/contact', :rel=>'nofollow'
+            %li= link_to 'Rails Hosting', '/products'
+        .legalNav
+          %h2 Info
+          %ul
+            %li= link_to 'Support', '/support'
+            %li= link_to 'Site Map', '/sitemap', :rel=>'nofollow'
+            %li= link_to 'Legal', '/legal/tos', :rel=>'nofollow'

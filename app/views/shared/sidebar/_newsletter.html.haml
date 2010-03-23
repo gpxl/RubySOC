@@ -1,0 +1,17 @@
+.block.box.subscribe
+  %h3 The Engine Yard Newsletter
+  %p
+    Get the latest Ruby and Rails tips, and news about Engine Yard Cloud.
+
+  %form{:action=>"http://engineyard.createsend.com/t/y/s/dhijjh/", :method=>"post"}
+    %label{:for=>"name"}Name:
+    %input{:type=>"text", :name=>"cm-name", :id=>"name"}
+    %br/
+    %label{:for=>"dhijjh-dhijjh"}Email:
+    %input{:type=>"text", :name=>"cm-dhijjh-dhijjh", :id=>"dhijjh-dhijjh"}
+    
+    / %p
+    /   %input{:type=>"checkbox", :value=>"85064", :id=>"cm85064", :name=>'cm-fo-juktid' }
+    /   %label{:for=>"cm85064"}I want to be notified when Engine Yard Cloud free trial is available
+
+    %input.cta.button{:type=>"submit", :value=>"Subscribe", :onclick=>"_gaq.push(['_trackEvent', 'Newsletter', 'Subscribe', 'Default'])"}

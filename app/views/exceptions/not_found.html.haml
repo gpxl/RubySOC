@@ -1,0 +1,69 @@
+- @buttons = 'nobuttons'
+.content#errorPage
+  .heading.block
+    %h1
+      Sorry, the page you're looking for couldn't be found.
+    / %p= "#{request.env['HTTP_HOST']}#{request.env['REQUEST_URI']}"
+    %p
+      = link_to 'Go back', 'javascript:history.back();'
+      to the previous page, visit our 
+      %a{:href => "/"}home page
+      or 
+      = link_to 'contact us', 'mailto:info@engineyard.com'
+      about this problem.
+    / .block
+    /   %h2 Search
+    /   %p Try searching our site
+    /   %form{:action=>"/search/results", :id=>"cse-search-box"}
+    /     %div
+    /       %input{:type=>"hidden", :name=>"cx", :value=>"017880287628485179549:52ioaixtx2e"}
+    /       %input{:type=>"hidden", :name=>"cof", :value=>"FORID:9"}
+    /       %input{:type=>"hidden", :name=>"ie", :value=>"UTF-8"}
+    /       %input{:type=>"text", :name=>"q", :size=>"31"}
+    /       %input{:type=>"submit", :name=>"sa", :value=>"Search"}
+    /   %script{:type=>"text/javascript", :src=>"http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"}
+  .column
+    %h2 Recommended Resources
+    
+    %p If you were looking for some information regarding our services, we've listed a few resources below where you can find additional information and help.
+    
+    %h3= link_to 'Support Center', '/support'
+    %p Get help from our skilled staff of Ruby and Rails Hosting experts.
+    
+    %h3= link_to 'Engine Yard Blog', 'http://www.engineyard.com/blog'
+    %p News from Engine Yard and the voices of our people.
+    
+    %h3= link_to 'Engine Yard Cloud', '/products/cloud'
+    %p The Engine Yard Rails application services platform.
+    
+    %h3= link_to 'About Engine Yard', '/about'
+    %p Get to know the people behind Engine Yard.
+      
+  .column.side
+    = partial('shared/sidebar/newsletter')
+    = partial('shared/sidebar/socialmedia')
+
+  - unless Rails.env == "production"
+    .clearfix
+    .error
+      %h2
+        This only shows up in when environment is not production
+
+      %h3
+        Exception:
+      %p
+        = params[:exception]
+
+      %h3
+        Params:
+      %p
+        = params.inspect
+
+%script{:type=>'text/javascript', :src=>'http://www.google-analytics.com/urchin.js'}
+%script{:type=>'text/javascript'}
+  _uacct = "xxxxx-x";
+  urchinTracker('/404.html?page=' + _udl.pathname + _udl.search);
+
+- if Rails.env == 'production'
+  / 404 Tracking
+  %script{:type=>"text/javascript", :src=>"http://www.linkpatch.com/monitor/0d25d2a8c9742fd9900e4d47749a9057a9276109/"}

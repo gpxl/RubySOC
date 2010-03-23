@@ -1,0 +1,101 @@
+<!-- Begin header -->
+.header
+  %div
+    - unless @landingpage
+      %ul.utility
+        %li.login= link_to 'Login to Cloud', 'http://cloud.engineyard.com'
+        %li.phoneNumber Sales: (866) 518-YARD
+        
+
+      .navigation
+        %ul
+          %li#nav_services
+            = main_nav("Cloud", '/products/cloud')
+            .ribbon#sub_services
+              %ul.subnav
+                %li
+                  = link_to 'Engine Yard Cloud', '/products/cloud'
+                  %em Engine Yard Rails Application Cloud.
+                  %ul 
+                    %li= link_to 'Features', '/products/cloud/features'
+                    %li= link_to 'Pricing', '/products/cloud/pricing'
+                    %li= link_to 'Support', '/products/cloud/support'
+                    %li= link_to 'Why Use Engine Yard Cloud?', '/products/cloud/why-use-engine-yard-cloud-services'
+                %li
+                  = link_to 'Private Cloud', '/products/private-cloud'
+                  %em Engine Yard Private Cloud Hosting.
+                  %ul
+                    %li= link_to 'Fractional Clusters', '/products/private-cloud/fractional'
+                    %li= link_to 'Dedicated Clusters', '/products/private-cloud/dedicated'
+                %li= link_to 'JRuby Support', '/products/jruby-support'
+
+          %li#nav_support
+            = main_nav("Support &amp; Services", '/support/services')
+            .ribbon#sub_support
+              %ul.subnav
+                %li
+                  = link_to 'Professional Services', '/support/services'
+                  %em
+                    Professional services delivered by the
+                    <br />Engine Yard team of experts to get
+                    <br />your environment up and running quickly
+                    <br />and working more efficiently.
+                %li
+                  = link_to 'Training Services', '/support/training'
+                  %em
+                    Training workshops, presented by Ruby on Rails
+                    <br />experts from Engine Yard and our partners.
+                %li
+                  = link_to 'Support Center', '/support'
+                  %em
+                    Resources and support for
+                    <br />Engine Yard Cloud and Private Cloud 
+
+          %li#nav_technology
+            = main_nav("Technology", '/technology')
+            .ribbon#sub_technology
+              %ul.subnav
+                %li
+                  = link_to 'Technology', '/technology'
+                  %em
+                    The Engine Yard Rails Application Cloud platform
+                    <br />is architected to be the most reliable, most stable
+                    <br />and fastest Ruby on Rails platform available.
+                %li
+                  = link_to 'Ruby on Rails Stack', '/technology/stack'
+                  %em
+                    A standardized Ruby on Rails web application
+                    <br />framework stack, designed and optimized for 
+                    <br />business-critical Ruby on Rails application
+                    <br />development.
+                    
+          %li#nav_community
+            = main_nav("Blog", 'http://www.engineyard.com/blog')
+
+          %li#nav_about
+            = main_nav("Company", '/about')
+            .ribbon#sub_about
+              %ul.subnav
+                %li
+                  = link_to 'Company', '/about'
+                  %ul
+                    %li= link_to 'About Us', '/about'
+                    %li= link_to 'Customers', '/customers'
+                    %li= link_to 'Leadership Team', '/about/leadership'
+                    %li= link_to 'Careers', '/about/careers'
+                %li
+                  = link_to 'Community', '/blog'
+                  %ul
+                    %li= link_to 'Partners', '/partners'
+                    %li= link_to 'Community Events', '/community/events'
+                    %li= link_to 'User Groups', '/community/usergroups'
+                %li
+                  = link_to 'News &amp; Press', '/about/news'
+                  %em Engine Yard in the news.
+                  %ul
+                    %li= link_to 'In The News', '/about/news'
+                    %li= link_to 'Press Releases', '/about/press'
+                %li
+                  = link_to 'Contact Us', '/about/contact'
+                  %em
+                    Have a question or comment<br/> for us, or want to talk to a<br/> sales person?

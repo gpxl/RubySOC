@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Ruby Summer of Code</title>
+	<link href="stylesheets/reset.css" media="all" rel="stylesheet" type="text/css">
+	<link href="stylesheets/application.css" media="all" rel="stylesheet" type="text/css">
+	<!--[if lt IE 7]><script type="text/javascript" src="javascripts/unitpngfix.js"></script><![endif]--> 
+	<!-- Date: 2009-08-28 -->
+</head>
+<body id="event_schedule">
+<div id="wrapper">	
+	<div id="container">
+		<div class="header">
+			<h1><a href="index.html" title="Ruby Summer of Code"><img src="images/header.png" alt="Ruby Summer of Code"></a></h1>
+		</div><!--/End Header -->
+		<div class="nav" id="primary">
+			<ul>                    
+				<li id="nav_overview"><%= main_nav('Overview', '/') %></li>
+				<li id="nav_mentors"><%= main_nav('Mentors', '/mentors') %></li>
+				<li id="nav_students"><%= main_nav('Students', '/students') %></li>
+				<li id="nav_sponsors"><%= main_nav('Sponsors', '/sponsors') %></li>
+				<li id="nav_community"><%= main_nav('Community', '/community') %></li>
+			</ul>
+		</div>
+		<div id="contentwrap">
+  		<div id="content">
+  				  <%= yield %>
+			</div>
+		
+  		<div class="aside">
+  			<h3>Presented by</h3>
+  			<ul>
+  				<li><a href="http://www.engineyard.com" target="_blank"><img src="images/Engine-Yard.png" alt="Engine Yard Rails Hosting" height="125"></a></li>
+  				<li><a href="http://www.rubycentral.org" target="_blank"><img src="images/Ruby-Central.png" alt="Ruby Central" height="125"></a></li>
+  			</ul>
+
+  			<h5>Gold Sponsors</h5>
+  			<ul>
+  			   </ul>
+  			<h5>Silver Sponsors</h5>
+  			<ul>
+  			 </ul>
+  			<p>Download the <a href="/RubySOC-Sponsor-Prospectus.pdf">prospectus</a> or contact <a href="mailto:events@engineyard.com">Leah Silber</a> for sponsorship information.</p>
+  		</div>
+		
+  		<div class="cB"></div>
+    </div>
+	</div><!--/End Container -->
+</div><!--/End Wrapper -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-764576-10");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

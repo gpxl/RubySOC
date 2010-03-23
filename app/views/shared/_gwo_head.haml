@@ -1,0 +1,45 @@
+- if @newsletter_control #Google Website Optimizer Control Script for newsletter/aw landing page
+  <!-- Newsletter -->
+  <script>
+  function utmx_section(){}function utmx(){}
+  (function(){var k='1031149580',d=document,l=d.location,c=d.cookie;function f(n){
+  if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.indexOf(';',i);return c.substring(i+n.
+  length+1,j<0?c.length:j)}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;
+  d.write('<sc'+'ript src="'+
+  'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com'
+  +'/siteopt.js?v=1&utmxkey='+k+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='
+  +new Date().valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+  '" type="text/javascript" charset="utf-8"></sc'+'ript>')})();
+  </script><script>utmx("url",'A/B');</script>
+
+- if @pricing_control # Optimizer script for pricing control landing page
+  <!-- Google Website Optimizer Control Script -->
+  <script>
+  function utmx_section(){}function utmx(){}
+  (function(){var k='2907802687',d=document,l=d.location,c=d.cookie;function f(n){
+  if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.indexOf(';',i);return c.substring(i+n.
+  length+1,j<0?c.length:j)}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;
+  d.write('<sc'+'ript src="'+
+  'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com'
+  +'/siteopt.js?v=1&utmxkey='+k+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='
+  +new Date().valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+  '" type="text/javascript" charset="utf-8"></sc'+'ript>')})();
+  </script><script>utmx("url",'A/B');</script>
+  <!-- End of Google Website Optimizer Control Script -->
+
+- if @pricing_control || @pricing1 # Optimizer Conversion script for Pricing AB tests
+  <!-- Google Website Optimizer Conversion Script -->
+  <script type="text/javascript">
+
+  if(typeof(_gat)!='object')document.write('<sc'+'ript src="http'+
+  (document.location.protocol=='https:'?'s://ssl':'://www')+
+  '.google-analytics.com/ga.js"></sc'+'ript>')</script>
+  <script type="text/javascript">
+  function doGoal(that) {
+  try {
+  var gwoTracker=_gat._getTracker("UA-764576-11");
+  gwoTracker._trackPageview("/2907802687/goal");
+  setTimeout('document.location = "' + that.href + '"', 100)
+  }catch(err){}
+  }
+  </script>

@@ -1,0 +1,37 @@
+- if @newsletter_control || @newsletter_optimizer # Google Website Optimizer Tracking Script for newsletter
+  <!-- Google Website Optimizer Tracking Script -->
+  <script type="text/javascript">
+  if(typeof(_gat)!='object')document.write('<sc'+'ript src="http'+
+  (document.location.protocol=='https:'?'s://ssl':'://www')+
+  '.google-analytics.com/ga.js"></sc'+'ript>')</script>
+  <script type="text/javascript">
+  try {
+  var gwoTracker=_gat._getTracker("UA-764576-11");
+  gwoTracker._trackPageview("/1031149580/test");
+  }catch(err){}</script>
+
+- if params[:path] == ['newsletter', 'subscribe-thanks'] # Optimizer conversion script for Newsletter AB tests
+  <!-- Google Website Optimizer Conversion Script -->
+  <script type="text/javascript">
+  if(typeof(_gat)!='object')document.write('<sc'+'ript src="http'+
+  (document.location.protocol=='https:'?'s://ssl':'://www')+
+  '.google-analytics.com/ga.js"></sc'+'ript>')</script>
+  <script type="text/javascript">
+  try {
+  var gwoTracker=_gat._getTracker("UA-764576-11");
+  gwoTracker._trackPageview("/1031149580/goal");
+  }catch(err){}</script>
+  <!-- End of Google Website Optimizer Conversion Script -->
+
+- elsif @pricing_control || @pricing1 # Pricing AB Test tracking script
+  <!-- Google Website Optimizer Tracking Script -->
+  <script type="text/javascript">
+  if(typeof(_gat)!='object')document.write('<sc'+'ript src="http'+
+  (document.location.protocol=='https:'?'s://ssl':'://www')+
+  '.google-analytics.com/ga.js"></sc'+'ript>')</script>
+  <script type="text/javascript">
+  try {
+  var gwoTracker=_gat._getTracker("UA-764576-11");
+  gwoTracker._trackPageview("/2907802687/test");
+  }catch(err){}</script>
+  <!-- End of Google Website Optimizer Tracking Script -->
