@@ -7,9 +7,6 @@ body {
 	font-style:normal;
 	line-height:1.1em;
 }
-#content h3 {
-
-}
 p {
 	font:1.3em/1.6em Helvetica, arial;
 }
@@ -32,12 +29,54 @@ a:hover { text-decoration:underline; }
 	margin:0 auto;                                                                       
 	text-align:left;
 	width:1024px;                       
-	padding:0 0 100px 0;
+	padding:0 0 20px 0;
 	background:#f1f7e2;
 	border:#999 solid;
 	border-width:0 1px;
 }
-
+#endcap {    
+  position:absolute;
+  bottom:0;
+  z-index:1;        
+  height:25px;
+  width:1024px;
+  background:url('/images/footer.gif') no-repeat bottom;
+}           
+#endnav {
+  position:relative;
+	margin:0 auto;                                                                       
+	text-align:left;
+	width:1024px;                       
+	min-height:90px;
+	padding: 0;
+  background:url('/images/main-sprite.gif') 0 -414px repeat-x; 
+	border:#999 solid;
+	border-width:0 1px;
+}      
+#endnav .links {     
+  padding:10px 0 0 0 ;
+  margin:0 0 0 190px;
+  font-size:2.5em;
+  line-height:0.95em;
+  color:#fff;  
+}                
+#endnav li {
+  display:inline;
+  margin:0 10px 0 0;
+}     
+#endnav .links a {
+  color:#fbed21;  
+  font-size:0.75em;
+}     
+#endnav .ruby {
+  position:absolute;
+  background:url('/images/main-sprite.gif') 0 -608px repeat-x;
+  overflow:hidden;   
+  top:0;
+  left:94px;
+  height:60px;    
+  width:85px;
+}
 .header {
 	height:200px;
 	margin:0;
