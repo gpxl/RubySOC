@@ -8,8 +8,7 @@ body {
 	line-height:1.1em;
 }
 #content h3 {
-  font-size: 1.2em;
-  line-height: 1.1em;
+
 }
 p {
 	font:1.3em/1.6em Helvetica, arial;
@@ -36,7 +35,7 @@ a:hover { text-decoration:underline; }
 	text-align:left;
 	width:1024px;                       
 	padding:0 0 100px 0;
-	background:url('/images/header.png') 0 0 no-repeat;
+	background:#f1f7e2;
 	border:#999 solid;
 	border-width:0 1px;
 }
@@ -160,14 +159,10 @@ a:hover { text-decoration:underline; }
   border:solid #bddd79;
   border-width:0 0 1px 0;
 }                        
-#content .section ol li {
-  font-size:1.5em;  
-}
-#content .section ol li p {
-  font-size:0.75em;
-}
-#content .section ol li h3 {
- margin:24px 0 5px 0;
+#content .section ol li h3, #content .section h3 {
+  font-size:1.8em;  
+  line-height:1.2em;  
+  margin:24px 0 5px 0;
 }
   #content h2 {
     margin-bottom: 1em;
@@ -330,35 +325,6 @@ a:hover { text-decoration:underline; }
 				color:#99ccff;
 				text-decoration:none;
 			}
-		
-	/* Home Page - Speakers */
-	#speakers {
-		display:inline;
-		float:left;
-		margin:0 0 22px;
-		width:304px;
-	}
-		#speakers h4 {
-			font-size:1em;
-			line-height:1.2em;
-			margin:0;
-		}
-		#speakers img { margin-right:15px; }
-		#speakers li {
-			clear:left;
-			color:#fff;
-			font-size:1.4em;
-			margin:0 0 30px;
-		}
-		#speakers p {
-			font-size:1em;
-			line-height:1.2em;
-		}
-		#speakers a, .aside a[href*=speakers] {
-		  font-size:1.3em;
-		  display:block;
-		  text-align:right;
-		}
 		.aside a {
 		  color: #005195;
 		}
@@ -366,7 +332,6 @@ a:hover { text-decoration:underline; }
 		  text-align: center;
 		  margin-bottom: 10px;
 		}
-		#speakers ul { margin-top:28px; }
 		#viewMore {
 			font: 1.4em/1.1em 'Lucida Sans', 'Lucida Sans Unicode', Helvetica, Arial;
 			margin: 15px 0 30px;
