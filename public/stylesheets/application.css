@@ -52,6 +52,7 @@ a:hover { text-decoration:underline; }
   background:url('/images/main-sprite.gif') 0 -414px repeat-x; 
 	border:#999 solid;
 	border-width:0 1px;
+	text-shadow: 2px 2px 2px #636a4c;
 }      
 #endnav .links {     
   padding:10px 0 0 0 ;
