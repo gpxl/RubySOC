@@ -104,7 +104,7 @@ a:hover { text-decoration:underline; }
   #social {
     position:absolute;
     top:167px;
-    right:50px;
+    right:40px;
   }          
   #social li {  
     display:inline;
@@ -113,11 +113,12 @@ a:hover { text-decoration:underline; }
     height:30px;
     overflow:hidden;
     text-indent:-999px;
-    margin:0 3px;
+    margin:0 6px;
   }               
   #social li a {
     display:block;     
-    margin:0 3px;
+    width:30px;
+    height:30px;
   }
   #social_twitter {
     background:url('/images/main-sprite.gif') 0 -30px no-repeat; 
@@ -279,11 +280,32 @@ a:hover { text-decoration:underline; }
 	  padding-bottom:0.25em;
 	  margin-bottom:0.5em;
 	}                    
-	
 	#preamble.home {
 	  width:550px;
 	}
-
+	#paypal {
+    position:absolute;
+    top:222px;
+    left:640px;
+    width:105px;
+	}             
+	#paypal h5 {                                     
+	  width:105px;
+	  height:105px;
+	  background:url('/images/main-sprite.gif') 0 -116px no-repeat;
+	  overflow:hidden;
+	  text-indent:-999px;
+	  margin:0 0 5px 0;
+	}
+	#paypal a {                                     
+	  display:block;
+	  width:105px;
+	  height:26px;
+	  background:url('/images/main-sprite.gif') 0 -90px no-repeat;
+	  overflow:hidden;
+	  text-indent:-999px;
+	  margin:0 0 5px 5px;
+	}
 	/* Home Page - Next Event */
 	#location {
 		clear:left;
