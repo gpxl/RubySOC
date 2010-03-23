@@ -28,6 +28,7 @@ a:hover { text-decoration:underline; }
 	margin:0;
 }
 #container {
+  position:relative;
 	margin:0 auto;                                                                       
 	text-align:left;
 	width:1024px;
@@ -96,17 +97,40 @@ a:hover { text-decoration:underline; }
 		color:#252525 !important;
 	}
 	
-	li#nav_overview a { background:url(../images/menu_off.gif) 0 0 no-repeat; }
-	li#nav_schedule a { background:url(../images/menu_off.gif) -121px 0 no-repeat; }
-	li#nav_speakers a { background:url(../images/menu_off.gif) -242px 0 no-repeat; }
-	li#nav_sponsors a { background:url(../images/menu_off.gif) -363px 0 no-repeat; }
-	li#nav_location a { background:url(../images/menu_off.gif) -484px 0 no-repeat; }
-	li#nav_register a { background:url(../images/menu_off.gif) -605px 0 no-repeat; }
-	
 	* html #primary.nav li { font-size:1.6em; }
 	* html #primary.nav li a { display:inline-block; }
 	* html #primary.nav ul {height:1% !important; display: inline-block; margin-bottom: -18px;}
-
+  
+  #social {
+    position:absolute;
+    top:167px;
+    right:50px;
+  }          
+  #social li {  
+    display:inline;
+  	float:left;    
+  	width:30px;
+    height:30px;
+    overflow:hidden;
+    text-indent:-999px;
+    margin:0 3px;
+  }               
+  #social li a {
+    display:block;     
+    margin:0 3px;
+  }
+  #social_twitter {
+    background:url('/images/main-sprite.gif') 0 -30px no-repeat; 
+  }
+  #social_digg {
+    background:url('/images/main-sprite.gif') -30px -30px no-repeat; 
+  }
+  #social_facebook {
+    background:url('/images/main-sprite.gif') 0 -60px no-repeat; 
+  }
+  #social_reddit {
+    background:url('/images/main-sprite.gif') -30px -60px no-repeat; 
+  }
 #contentwrap {
   width:100%;
   border:solid #999;
@@ -453,51 +477,6 @@ a:hover { text-decoration:underline; }
 	text-align:center;
 	width:136px;
 }	
-	
-/* == General Classes
---------------------------------------*/
-.box305 {
-	background:url(../images/box305_top.png) 0 0 no-repeat;
-	padding-top:6px;
-}	
-	.box305 .bot {
-		background:url(../images/box305_bot.png) 0 0 no-repeat;
-		font-size:1px;
-		height:6px;
-	}
-	.box305 .mid {
-		background:url(../images/box305_mid.png) 0 0 repeat-y;
-		padding:16px 24px;
-	}
-	
-.box404 {
-	background:url(../images/box404_top.png) 0 0 no-repeat;
-	padding-top:6px;
-}	
-	.box404 .bot {
-		background:url(../images/box404_bot.png) 0 0 no-repeat;
-		font-size:1px;
-		height:6px;
-	}
-	.box404 .mid {
-		background:url(../images/box404_mid.png) 0 0 repeat-y;
-		padding:16px 0 0;
-	}
-
-.box722 {
-	background:url(../images/box722_top.png) 0 0 no-repeat;
-	padding-top:6px;
-	width:722px;
-}	
-	.box722 .bot {
-		background:url(../images/box722_bot.png) 0 0 no-repeat;
-		font-size:1px;
-		height:6px;
-	}
-	.box722 .mid {
-		background:url(../images/box722_mid.png) 0 0 repeat-y;
-		padding:16px 0 0;
-	}
 
 
 .clear { clear:both; height:0; font-size: 1px; }

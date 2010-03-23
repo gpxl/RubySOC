@@ -23,12 +23,19 @@
 				<li id="nav_sponsors"><%= main_nav('Sponsors', '/sponsors') %></li>
 				<li id="nav_community"><%= main_nav('Community', '/community') %></li>
 			</ul>
-		</div>
+		</div>               
+		<div id="social">
+      <ul>
+        <li id="social_twitter"><a href="http://www.twitter.com/rubysoc">Twitter</a></li>
+        <li id="social_facebook"><a href="http://www.facebook.com">Facebook</a></li>
+        <li id="social_digg"><a href="http://www.digg.com">Digg</a></li>
+        <li id="social_reddit"><a href="http://www.reddit.com">Reddit</a></li>
+      </ul>
+	  </div>
 		<div id="contentwrap">
   		<div id="content">
   				  <%= yield %>
-			</div>
-		
+			</div>             
   		<div class="aside">
   			<h3>Presented by</h3>
   			<ul>
@@ -50,14 +57,15 @@
 	</div><!--/End Container -->
 </div><!--/End Wrapper -->
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-764576-10");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-764576-14']);
+  _gaq.push(['_trackPageview']);
 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 </body>
 </html>
