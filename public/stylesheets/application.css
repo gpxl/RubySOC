@@ -471,6 +471,7 @@ a:hover { text-decoration:underline; }
 }	            
 .individuals { 
 -moz-column-count: 3;
+-webkit-column-count: 3;
 -moz-column-width: 20px;
 -webkit-column-width: 20px;
 -moz-column-gap: 10px;
