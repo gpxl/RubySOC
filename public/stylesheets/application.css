@@ -316,7 +316,8 @@ a:hover { text-decoration:underline; }
 	  margin-bottom:0.5em;
 	}                    
 	#preamble.home {
-	  width:550px;
+	  width:550px; 
+	  height:162px;
 	}
 	#paypal {
     position:absolute;
