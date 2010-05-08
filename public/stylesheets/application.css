@@ -311,6 +311,7 @@ a:hover { text-decoration:underline; }
 		-webkit-border-radius: 5px;
     background:url('/images/main-sprite.gif') 0 -221px repeat-x; 
   	padding:10px;
+    line-height:0.1em;
 	}          
 	#preamble h2 {
 	  padding-top:0.25em;
@@ -487,6 +488,43 @@ a:hover { text-decoration:underline; }
 .floatRight {
 	display: inline;
 	float: right;
+}              
+.peeps {
+  clear:both;
+}
+.peeps div {
+  position:relative;
+  float:left;
+  margin:10px 10px 0 10px;
+  line-height:14px;
+}
+.peeps div.bio {
+  position:absolute;
+  background:#fff;
+  z-index:1;
+  top:-10px;
+  left:88px;
+  width:250px;    
+  font-size:0.85em;  
+  padding:10px;                       
+  display:none;
+}
+.peeps img {
+  padding:5px;
+}
+.peeps .student img, .peeps div.student .bio {
+  border:1px solid #BCDC77;
+}
+.peeps .mentor img, .peeps div.mentor .bio {
+  border:1px solid #FFCC66;
+}                                    
+.peeps li:first-child {
+  font-weight:bold;
+  color:#333;          
+  font-size:12px;
+}                      
+.peeps li:nth-child(3) {
+  color:#666;
 }
 
 

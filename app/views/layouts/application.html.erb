@@ -7,6 +7,8 @@
 	<title>Ruby Summer of Code</title>
 	<link href="stylesheets/reset.css" media="all" rel="stylesheet" type="text/css">
 	<link href="stylesheets/application.css" media="all" rel="stylesheet" type="text/css">
+	<link href="stylesheets/application.css" media="all" rel="stylesheet" type="text/css"> 
+	<%= javascript_include_tag 'application.js' %>
 	<!--[if lt IE 7]><script type="text/javascript" src="javascripts/unitpngfix.js"></script><![endif]-->
 	<!-- Date: 2009-08-28 -->
 </head>
@@ -19,8 +21,7 @@
 		<div class="nav" id="primary">
 			<ul>
 				<li id="nav_overview"><%= main_nav('Overview', '/index') %></li>
-				<li id="nav_mentors"><%= main_nav('Mentors', '/mentors') %></li>
-				<li id="nav_students"><%= main_nav('Students', '/students') %></li>
+				<li id="nav_projects"><%= main_nav('Projects', '/projects') %></li>
 				<li id="nav_sponsors"><%= main_nav('Sponsors', '/sponsors') %></li>
 				<li id="nav_community"><%= main_nav('Community', '/community') %></li>
 			</ul>
