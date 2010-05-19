@@ -1,59 +1,219 @@
-<div id="preamble">
-	<h2>Projects</h2>
-	  <p>
-	  </p>
-</div>
+<!-- <div id="preamble">
+  <h2>Projects</h2>
+    <p>
+    </p>
+</div> -->
 <%= partial('shared/paypal.html.erb') %>
 <div class="section">
-  <h2>Benchmarking CI</h2>
+  <h2>Project #1: Out of the Box Mailer</h2>
     <p>   
-    Ruby on Rails should have an official full-stack benchmarking suite that developers can work against. Each commit would automatically trigger this process, either locally or remotely, and developers would be able to keep track of the impact their changes had on the framework's performance. In the most basic form, this would be a kind of performance-oriented continuous integration (CI). ne hypothetical example would be a server (maybe AWS) that would nightly run the all the benchmarks and compare them to the previously gathered data, being able to assert if there were any performance regressions/improvements in the recent changes. Developers would be notified if anything went wrong and would be able to get a good overview over the performance evolution over time, after each commit.
+    The objective is to create an incoming mail processing microframework (with POP, IMAP, and MTA support), that works with Rails "out of the box," and that is compatible with other popular Ruby web frameworks, complete with a routing DSL and bounce detection.
   </p>
   <div class="peeps">
     <div class="student">
-      <img src="/images/bios/gsilva.png" />
+      <a href="/s-jrudenberg"><img src="/images/ppl/s-jrudenberg.jpg" width="85px" /></a>
       <ul>
-        <li>Gonçalo Silva</li>
-        <li>Student</li>
-        <li>Porto, Portugal</li>
-        <li>@goncalossilva</li> 
+        <li>Jonathan Rudenberg</li>
+        <li><b>Student</b></li>
+        <li>Ottawa, Ontario, Canada</li>
       </ul> 
-      <div class="bio">
-        <p>
-          Bio: I'm a soon-to-be software engineer from Portugal who's always been interested in performance. I started using Ruby on Rails in 2007 as part of a college project. A couple of months later, RoR was my first choice for almost every web project. I currently work for Tecla Colorida, the creators of http://escolinhas.pt. In February 2010, I began my master's thesis, entitled Scaling Rails: A System-Wide Approach to Performance Optimization, mixing my passion for Rails with my mild obsession with performance.
-        </p>
-        <p>
-          I spend most of my free time tweaking open source projects, from operating systems to graphical user interfaces. I also avoid being a full-time geek by going out with friends, discovering new places, meeting new people and watching some TV shows (oh, wait, that is a geek thing...). You can learn more about me by visiting my website, taking a peak at my Rails-oriented blog, or following me on twitter.
-        </p>
-      </div>
     </div>
     <div class="mentor">
-      <img src="/images/bios/ykatz.png" />
+      <a href="/m-ssoroka"><img src="/images/ppl/m-ssoroka.jpg" width="85px" /></a>
       <ul>
-        <li>Yehuda Katz</li>
-        <li>Mentor</li>
-        <li>San Francisco, CA</li>
-        <li>@wykatz</li> 
+        <li>Steven Soroka</li>
+        <li><b>Mentor (Primary)</b></li>
+        <li>Winnipeg, Manitoba, Canada</li>
       </ul> 
-      <div class="bio">
-        <p>
-          Bio: Yehuda Katz is currently employed by Engine Yard, and works full time as a Core Team Member on the Rails project. He is the co-author of jQuery in Action and the upcoming Rails 3 in Action, and is a contributor to Ruby in Practice. He spends most of his time hacking on Rails, but also on other Ruby community projects, like Rubinius and Datamapper. And when the solution doesn't yet exist, he'll try his hand at creating one - as such, he's also created projects like Thor and DO.rb.
-        </p>
-      </div>        
     </div>
     <div class="mentor">
-      <img src="/images/bios/gmathieson.png" />
+      <a href="/m-mjones"><img src="/images/ppl/m-mjones.jpg" width="85px" /></a>
       <ul>
-        <li>Graeme Mathieson</li>
-        <li>Mentor</li>
-        <li>Edinburgh, Scotland</li>
-        <li>@mathie</li> 
+        <li>Matt Jones</li>
+        <li><b>Mentor</b></li>
+        <li>Columbus, OH</li>
       </ul>   
-      <div class="bio">
-        <p>
-          Bio: Graeme has been making a nuisance of himself on the Internet and in various open source communities since 1992 when he managed to blag a 9k6 modem from school. He didn't discover Ruby until late 2005 when he was frustrated with Zope (Python's only web framework at the time) and heard about this thing called Rails. Graeme was so impressed with Rails (and Ruby) that he quit his day job and started his own company, Rubaidh, so he could work with it full time. Since then he's worked with a variety of companies ‚ from tiny startups to household names‚ using Ruby to deliver reliable, usable, secure software. He also helps organise the Scottish Ruby Conference and founded the Scottish Ruby User Group so he likes to think he's quite community focused. More than 4 years later, he still loves working with Ruby (and Rails). His attention span isn't usually that long, so it must be good stuff.
-        </p>
-      </div>      
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Project #2: Simpler Ruby Deployment</h2>
+    <p>   
+   The goal of this project is to make it trivial to deploy applications under multiple environments (e.g. Ruby interpreters) in a server setting. In doing so, this project will involve working on improving existing tools (such as RVM and bundler, possibly also extensions for tools such as chef and puppet) as well as creating new tools where necessary. Ideally, at the end of the period it will be simpler for developers and companies to test out their applications internally on different Ruby implementations (including a prebuilt server set of virtual machine images for testing purposes).
+  </p>
+  <div class="peeps">
+    <div class="student">
+      <a href="/s-dlaycock"><img src="/images/ppl/s-dlaycock.jpg" width="85px" /></a>
+      <ul>
+        <li>Darcy Laycock</li>
+        <li><b>Student</b></li>
+        <li>Perth, Western Australia</li>
+      </ul> 
+    </div>
+    <div class="mentor">
+      <a href="/m-wseguin"><img src="/images/ppl/m-wseguin.jpg" width="85px" /></a>
+      <ul>
+        <li>Wayne Seguin</li>
+        <li><b>Mentor (Primary)</b></li>
+        <li>Buffalo, NY</li>
+      </ul> 
+    </div>
+    <div class="mentor">
+      <a href="/m-mdraper"><img src="/images/ppl/m-mdraper.jpg" width="85px" /></a>
+      <ul>
+        <li>Matthew Draper</li>
+        <li><b>Mentor</b></li>
+        <li>Adelaide, Australia</li>
+      </ul>   
+    </div>
+    <div class="mentor">
+      <a href="/m-bbommarito"><img src="/images/ppl/m-bbommarito.jpg" width="85px" /></a>
+      <ul>
+        <li>Brian Bommarito</li>
+        <li><b>Mentor</b></li>
+      </ul>   
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Project #3: Live Code Reloading</h2>
+    <p>   
+   When writing Rails plugins, many developers run into issues with the class reloader. Especially since Rails raises an error whenever it detects that an old class is still in use. Not having to program with the reloader in mind would be an advantage. My plan is to refactor and improve the current class reloader, so it will offer multiple reloading strategies, deciding at runtime what strategy to use for which class.
+  </p>
+  <div class="peeps">
+    <div class="student">
+      <a href="/s-khaase"><img src="/images/ppl/s-khaase.png" width="85px" /></a>
+      <ul>
+        <li>Konstantin Haase</li>
+        <li><b>Student</b></li>
+        <li>Berlin, Germany</li>
+      </ul> 
+    </div>
+    <div class="mentor">
+      <a href="/m-jkemper"><img src="/images/ppl/m-jkemper.jpg" width="85px" /></a>
+      <ul>
+        <li>Jeremy Kemper</li>
+        <li><b>Mentor (Primary)</b></li>
+        <li>San Diego, CA</li>
+      </ul> 
+    </div>
+    <div class="mentor">
+      <a href="/m-utatsuhiro"><img src="/images/ppl/m-utatsuhiro.jpg" width="85px" /></a>
+      <ul>
+        <li>Ujihisa Tatsuhiro</li>
+        <li><b>Mentor</b></li>
+        <li>Vancouver, Canada</li>
+      </ul>   
+    </div>
+    <div class="mentor">
+      <a href="/m-fverrot"><img src="/images/ppl/m-fverrot.jpg" width="85px" /></a>
+      <ul>
+        <li>Franck Verrot</li>
+        <li><b>Mentor</b></li>
+        <li>Lyon, France</li>
+      </ul>   
+    </div>
+    <div class="mentor">
+      <a href="/m-mjones"><img src="/images/ppl/m-mjones.jpg" width="85px" /></a>
+      <ul>
+        <li>Matt Jones</li>
+        <li><b>Mentor</b></li>
+        <li>Columbus, OH</li>
+      </ul>   
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Project #4: NArray on OpenCL</h2>
+    <p>   
+   In this project, we will develop NArray on OpenCL that utilizes hardware resources such as GPU. The goal of our project is to translate NArray from C to OpenCL. The NArray has the characters that match well as OpenCL (GPU) applications. In addition, OpenCL is hardware agnostic so that the programs using OpenCL should run on various CPUs/GPUs. This means the translation of NArray to OpenCL will not detract the feature of the Ruby portability. Therefore, this project allows Ruby programmers to facilitate implementing and executing heavily calculation-oriented applications.
+  </p>
+  <div class="peeps">
+    <div class="student">
+      <a href="/s-ktanimura"><img src="/images/ppl/s-ktanimura.jp" width="85px" /></a>
+      <ul>
+        <li>Kazuyuki Tanimura</li>
+        <li><b>Student</b></li>
+        <li>Irvine, CA</li>
+      </ul> 
+    </div>
+    <div class="mentor">
+      <a href="/m-utatsuhiro"><img src="/images/ppl/m-utatsuhiro.jpg" width="85px" /></a>
+      <ul>
+        <li>Ujihisa Tatsuhiro</li>
+        <li><b>Mentor (Primary)</b></li>
+        <li>Vancouver, Canada</li>
+      </ul>   
+    </div>
+    <div class="mentor">
+      <a href="/m-ushyouhei"><img src="/images/ppl/m-ushyouhei.jpg" width="85px" /></a>
+      <ul>
+        <li>Urabe Shyouhei</li>
+        <li><b>Mentor</b></li>
+        <li>Tokyo, Japan</li>
+      </ul>   
+    </div>
+    <div class="mentor">
+      <a href="/m-kmurata"><img src="/images/ppl/m-kmurata.jpg" width="85px" /></a>
+      <ul>
+        <li>Kenta Murata</li>
+        <li><b>Mentor</b></li>
+        <li>Sapporo, Japan</li>
+      </ul>   
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Project #5: Bringing More REST to Ruby with Restfulie</h2>
+    <p>   
+      REST is an architectural style for distributed hypermedia systems. It's the style that guides the web architecture, and by developing applications that conform to its constraints we can enjoy many of the features that make the web successful, such as scalability, generality of interfaces, and intermediary components to reduce interaction latency, enforce security, and encapsulate legacy systems.</p>
+    <br />
+    <p>The goal of this project is to make it easier to write RESTful web applications and enjoy its advantages. This will be done on top of Restfulie, a library that help you write hypermedia-aware clients and servers. Rails brought REST to the Ruby world with the notion of resources and crud through HTTP, Restfulie goes one step further. I'll be working especially towards making Restfulie framework-agnostic and improving REST support in Rails.
+  </p>
+  <div class="peeps">
+    <div class="student">
+      <a href="/s-esouza"><img src="/images/ppl/s-esouza.png" width="85px" /></a>
+      <ul>
+        <li>Elomar Souza</li>
+        <li><b>Student</b></li>
+        <li>Natal, Brazil</li>
+      </ul> 
+    </div>
+    <div class="mentor">
+      <a href="/m-jvalim"><img src="/images/ppl/m-jvalim.png" width="85px" /></a>
+      <ul>
+        <li>José Valim</li>
+        <li><b>Mentor (Primary)</b></li>
+        <li>Poland</li>
+      </ul>   
+    </div>
+    <div class="mentor">
+      <a href="/m-mbleigh"><img src="/images/ppl/m-mbleigh.jpg" width="85px" /></a>
+      <ul>
+        <li>Michael Bleigh</li>
+        <li><b>Mentor</b></li>
+        <li>Lee's Summit, MO</li>
+      </ul>   
+    </div>
+    <div class="mentor">
+      <a href="/m-jgay"><img src="/images/ppl/m-jgay.jpg" width="85px" /></a>
+      <ul>
+        <li>Jim Gay</li>
+        <li><b>Mentor</b></li>
+        <li>Arlington, VA</li>
+      </ul>   
+    </div>
+    <div class="mentor">
+      <a href="/m-mmay"><img src="/images/ppl/m-mmay.jpg" width="85px" /></a>
+      <ul>
+        <li>Martin May</li>
+        <li><b>Mentor</b></li>
+        <li>Denver, CO</li>
+      </ul>   
     </div>
   </div>
 </div>
