@@ -315,12 +315,26 @@ a:hover { text-decoration:underline; }
 	}          
 	#preamble h2 {
 	  padding-top:0.25em;
-	  padding-bottom:0.25em;
 	  margin-bottom:0.5em;
-	}                    
+	}      
+	#preamble h3 {
+	  font-size: 2em;
+	  color: #607e4c;
+	  font-family:georgia;
+    font-weight:normal;
+    font-size:15px;
+	  padding-bottom:0.25em;
+	  padding-left:1em;
+	  margin-bottom:0.5em;
+	}                                
 	#preamble.home {
 	  width:550px; 
 	  height:162px;
+	}
+	#preamble img { 
+	  border:1px solid #607E4C;
+	  float:right; 
+	  width:85px;
 	}
 	#paypal {
     position:absolute;
