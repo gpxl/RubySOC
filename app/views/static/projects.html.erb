@@ -360,7 +360,7 @@
       <ul>
         <li>Magnus Holm</li>
         <li><b>Student</b></li>
-        <li>Medellin, Colombia</li>
+        <li>Ski, Akershus, Norway</li>
       </ul> 
     </div>
     <div class="mentor">
@@ -383,9 +383,11 @@
 </div>
 
 <div class="section">
-  <h2>Project #12: Try Camping</h2>
+  <h2>Project #12: ActiveRecord Identity Map</h2>
     <p>   
-      In this Ruby Summer of Code project we’ll design, implement, and launch Try Camping. The site will be designed give newcomers a solid foundation in Ruby web development so they can easily continue with Rails and Sinatra. Try Camping will be an interactive web-development tutorial using Ruby and the Camping framework. It runs right in the browser and needs no setup so you can focus on learning. You start by writing a simple but functional application, then grow into more advanced topics like MVC and REST.</p>
+      Our goal is provide plugable identity map implementation for ActiveRecord. An identity map is a design pattern used to improve performance by providing a in-memory cache to prevent duplicate retrieval of the same object data from the database, in our case in context of the same request or thread.</p>
+      <br />
+      <p>If the requested data has already been loaded from the database, the identity map returns the same instance of the already instantiated object, but if it has not been loaded yet, it loads it and stores the new object in the map. The main gains of this project will be performance improvement and memory consumption reduction.</p>
   <div class="peeps">
     <div class="student">
       <a href="/s-mraczkowski"><img src="/images/ppl/s-mraczkowski.jpg" width="85px" /></a>
