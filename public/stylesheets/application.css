@@ -532,15 +532,19 @@ a:hover { text-decoration:underline; }
 .peeps .mentor img, .peeps div.mentor .bio {
   border:1px solid #FFCC66;
 }                                    
-.peeps li:first-child {
+.peeps .mentor li:first-child {
   font-weight:bold;
   color:#333;          
   font-size:12px;
 }                      
-.peeps li:nth-child(3) {
+.peeps .mentor li:nth-child(3) {
   color:#666;
 }
 
+.peeps .mentor-list {
+  font-size:1.2em;  
+  line-height:1.6em;  
+}
 
 /* Clearing */
 .cB:after,  .section:after, .eventLocation:after, #content:after { clear: both; content:'.'; display: block; height: 0; visibility: hidden; }
